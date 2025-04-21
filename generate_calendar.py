@@ -4,7 +4,7 @@ from datetime import datetime
 import pytz
 
 # API endpoint
-url = "https://comet.fsf.fo/data-backend/api/public/areports/run/0/50/?API_KEY=eb76e50daaac67d9cda7413c95c6dcc3074c59bbe2310dd0aff24fb56262e77c8ed6c62503a056b2ccb49eea7fe6b6112da752a80390cff56401d1617caae336"
+url = "https://comet.fsf.fo/data-backend/api/public/areports/run/0/25/?API_KEY=7e006067aa502e4d363ecf1ffcdc9db5e201cf40a07cccb3aaf2568eae0b3e6bdeb2778426728bc6c804cc49987cf967f5f1b404c1ce44c60be7a54563fcefe3"
 response = requests.get(url)
 data = response.json()
 
